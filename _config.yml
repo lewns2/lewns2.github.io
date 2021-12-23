@@ -4,19 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: PS와 개발일지
+title: NexT
 subtitle:
 description:
-author: lewns2
-
+author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: ko
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://lewns2.github.io'
-baseurl: '/'
+url:
+baseurl:
 permalink: pretty
 
 # Pagination
@@ -63,7 +62,7 @@ defaults:
 
 # Atom feed
 feed:
-  path: rss.html
+  path: atom.xml
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
@@ -85,7 +84,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: /atom.xml
+rss:
 
 # Specify the date when the site was setup
 #since: 2015
@@ -106,7 +105,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: true
+seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -116,16 +115,14 @@ index_with_subtitle: false
 # Menu Settings
 # ---------------------------------------------------------------
 
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/-> archives)
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  about: /about/
-  archives: /archives/
   #categories: /categories/
+  #about: /about/
+  archives: /archives/
   tags: /tags/
-  categories: /navigator/
-  teach: /teach/
-  #sitemap: /menual/
+  #sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -145,7 +142,9 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  teach: users
+
+
+
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -234,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: https://avatars3.githubusercontent.com/u/20872857?s=460&u=5f07ac108384e9a63e14269828aaa7a27fa84647&v=4
+#avatar:
 
 
 # Table Of Contents in the Sidebar
@@ -363,8 +362,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
-  per_page: true
+  enable: false
+  per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -382,9 +381,8 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: lewns2
+  shortname:
   count: true
-
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
   hide: false
@@ -395,11 +393,11 @@ wildfire:
   # version - It's recommended to use the following versions.
   loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
   useDev: true
-  version: 0.5.6
+  version: 0.5.6 
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey:
+    apiKey: 
     authDomain:
     databaseURL:
     projectId:
@@ -410,8 +408,8 @@ wildfire:
   # other configs
   theme: light # or dark
   locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL:
-# Any question?
+  defaultAvatarURL: 
+# Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
 
@@ -588,7 +586,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
