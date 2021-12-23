@@ -119,8 +119,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -382,7 +382,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: lewns2
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
