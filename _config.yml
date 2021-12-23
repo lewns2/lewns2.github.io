@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://justiceHui.github.io'
+url: 'https://lewns2.github.io'
 baseurl: '/'
 permalink: pretty
 
@@ -382,8 +382,9 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: justiceHui
+  shortname: lewns2
   count: true
+
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
   hide: false
