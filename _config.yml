@@ -4,10 +4,11 @@
 # ---------------------------------------------------------------
 
 # Site
-title: JusticeHui가 PS하는 블로그
+title: PS와 개발일지
 subtitle:
 description:
-author: JusticeHui
+author: lewns2
+
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
 date_format: '%Y-%m-%d'
