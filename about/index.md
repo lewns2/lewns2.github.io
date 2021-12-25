@@ -5,7 +5,7 @@ type: about
 
 
 ## 소개
-개발 공부 시작한 지 ""
+
 
 ### 온라인 저지 프로필
 {% include judge_profile.html boj_id="lewns2" codeforces_id="Donghyun2"%}
