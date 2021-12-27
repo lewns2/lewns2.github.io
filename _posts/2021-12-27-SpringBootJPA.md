@@ -1,6 +1,6 @@
 ---
 title: 스프링부트에서 데이터베이스를 다루는 방법
-description: 
+description: 자바에서 데이터베이스를 다루는 기술인 JDBC, SQL Mapper, ORM에 대해 알아봅니다.
 categories:
  - SpringBoot
 tags: SpringBoot DataBase
