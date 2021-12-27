@@ -8,7 +8,7 @@ type: about
 
 
 ### 온라인 저지 프로필
-{% include judge_profile.html boj_id="lewns2" codeforces_id="Donghyun2"%}
+{% include judge_profile.html boj_id="lewns2"%}
 
 
 ### 프로젝트 활동
