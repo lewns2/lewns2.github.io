@@ -96,6 +96,7 @@ SEO가 제대로 되지 않았다면, 검색해도 안 나올 수 있습니다. 
 |SSR|CSR|
 |------|---|
 |![img15](./img/ssrseo.png)|![img16](./img/csrseo.png)|
+|사진출처 : [SPA 에서 SEO 적용하기 :: 마이구미](https://mygumi.tistory.com/385)|
 
 
 SSR은 각각의 페이지('/', '/a', '/b', '/c')를 가지므로 html이 여러개입니다. <br>
@@ -146,15 +147,22 @@ Client Side Rendering에서 네트워크 요청/응답을 확인해봅시다.
 ![img4](./img/csr_init2.png)
 
 
-https://velog.io/@sunaaank/React-deep-dive#csr%EA%B3%BC-ssr%EC%9D%98-%EC%83%81%ED%98%B8%EB%B3%B4%EC%99%84
+#### 참고
+[[React] 네이버 블로그의 Node.js기반 SSR 전환, CSR과 SSR방식을 자세하게 살펴보기](https://velog.io/@sunaaank/React-deep-dive#csr%EA%B3%BC-ssr%EC%9D%98-%EC%83%81%ED%98%B8%EB%B3%B4%EC%99%84
+)
 
-https://mygumi.tistory.com/385
+[SPA 에서 SEO 적용하기 :: 마이구미](https://mygumi.tistory.com/385)
 
-https://krpeppermint100.medium.com/web-seo-ssr-csr-82f9b7e42e21
 
-https://devowen.com/309
+[[JS]SEO, SSR, CSR](https://krpeppermint100.medium.com/web-seo-ssr-csr-82f9b7e42e21)
 
-https://velog.io/@kja/Virtual-DOM
+[MPA와 SPA, SSR과 CSR, 그리고 SEO](https://devowen.com/309)
+
+[Virtual DOM 그리고 DOM](https://velog.io/@kja/Virtual-DOM)
+
+
+
+
 
 
 
