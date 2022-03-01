@@ -41,7 +41,7 @@ SSR은 페이지마다 하나의 HTML을 가집니다. (페이지마다 해당�
 
 
 #### SSR의 렌더링 방식 <br>
-![img10](./img/ssrrender.png)
+![img10](/img/ssrrender.png)
 > 1.브라우저에서 URL 입력을 통해 서버에 HTTP 요청을 보낸다.<br> 2. 서버가 요청을 받아 해당 페이지를 만들기 시작한다. <br> 3. 필요한 data fetching(데이터 가져오기)을 미리 해서 빈 페이지가 아닌 초기 콘텐츠가 로딩된 페이지를 만들어준다. <br> 4. 브라우저는 서버에서 만들어 준 HTML 페이지를 받아 페이지를 DOM에 그린다. (페이지가 사용자에게 보이는 시점) <br> 5. 페이지를 그리며 태그를 통해 JS, CSS 파일 등을 로딩한다. <br> 6. 로딩된 JS를 실행한다.
 
 ```
@@ -78,7 +78,7 @@ SSR과는 다르게 하나의 HTML 파일로 모든 페이지를 구성합니다
 
 
 #### CSR의 렌더링 방식 <br>
-![img11](./img/csrrender.png)
+![img11](/img/csrrender.png)
 > 1.브라우저에서 URL 입력을 통해 서버에 HTTP 요청을 보낸다.<br> 2. 빈 HTML을 내려받습니다. (다만, 여러 JS, CSS파일을 불러올 수 있는 링크들이 있습니다.) <br> 3. 브라우저가 JS 코드를 실행합니다. (이때, JS 코드 안에서 Vue, React 등이 구동됩니다.) <br> 4. VirtualDOM 구성이 완료되면, 이를 브라우저의 DOM에 붙입니다. <br> 5. 브라우저가 페이지를 그립니다.
 
 
@@ -124,7 +124,7 @@ SEO가 제대로 되지 않았다면, 검색해도 안 나올 수 있습니다. 
 
 |SSR|CSR|
 |------|---|
-|![img15](./img/ssrseo.png)|![img16](./img/csrseo.png)|
+|![img15](/img/ssrseo.png)|![img16](/img/csrseo.png)|
 |사진출처 : [SPA 에서 SEO 적용하기 :: 마이구미](https://mygumi.tistory.com/385)|
 
 
@@ -167,24 +167,24 @@ Wireshark는 자유 및 오픈 소스 패킷 분석 프로그램입니다.
 Server Side Rendering의 네트워크 요청/응답을 확인해봅시다.
 
 1. 최초 접속 <br>
-![img](./img/ssr_init.png)
+![img](/img/ssr_init.png)
 
 2. page 전환 <br>
-![img1](./img/ssr_request.png)
+![img1](/img/ssr_request.png)
 
 3. 패킷이 캡처된 모습 <br>
-![img2](./img/ssr_capture.png)
+![img2](/img/ssr_capture.png)
 
 Client Side Rendering에서 네트워크 요청/응답을 확인해봅시다.
 
 1. 최초 접속 <br>
-![img3](./img/csr_init.png)
+![img3](/img/csr_init.png)
 
 2. 최초 접속 시, js 및 static file을 다운로드 받는다. <br>
-![img4](./img/csr_init2.png)
+![img4](/img/csr_init2.png)
 
 
-#### 참고
+#### 참고한 유용한 블로그 및 게시글들
 [[React] 네이버 블로그의 Node.js기반 SSR 전환, CSR과 SSR방식을 자세하게 살펴보기](https://velog.io/@sunaaank/React-deep-dive#csr%EA%B3%BC-ssr%EC%9D%98-%EC%83%81%ED%98%B8%EB%B3%B4%EC%99%84
 )
 
