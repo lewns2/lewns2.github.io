@@ -183,6 +183,7 @@ Client Side Rendering에서 네트워크 요청/응답을 확인해봅시다.
 2. 최초 접속 시, js 및 static file을 다운로드 받는다. <br>
 ![img4](/img/csr_init2.png)
 
+<br><br>
 
 #### 참고한 유용한 블로그 및 게시글들
 [[React] 네이버 블로그의 Node.js기반 SSR 전환, CSR과 SSR방식을 자세하게 살펴보기](https://velog.io/@sunaaank/React-deep-dive#csr%EA%B3%BC-ssr%EC%9D%98-%EC%83%81%ED%98%B8%EB%B3%B4%EC%99%84
