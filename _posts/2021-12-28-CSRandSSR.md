@@ -2,7 +2,7 @@
 title: Web에서 Rendering 기술 차이
 description: Client Side Rendering과 Server Side Rendering의 차이
 categories:
- - Web
+ - Web이론
 tags: web 
 ---
 
